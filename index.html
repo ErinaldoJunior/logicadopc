@@ -44,7 +44,7 @@
 
   <!-- ======= Mobile nav toggle button ======= -->
   <!-- <button type="button" class="mobile-nav-toggle d-xl-none"><i class="bi bi-list mobile-nav-toggle"></i></button> -->
-  <i class="bi bi-list mobile-nav-toggle d-lg-none bg-secondary"></i>
+  <i class="bi bi-list mobile-nav-toggle d-lg-none bg-primary"></i>
   <!-- ======= Header ======= -->
   <header id="header" class="d-flex flex-column justify-content-center">
 
@@ -79,23 +79,39 @@
           <h2>Unidades Lógicas</h2>
           <p>O estrutura interna de um computador pode ser dividida em quatro unidades lógicas: a unidade central de processamento (ou processador), a memória, os circuitos de entrada e saída (ou E/S) e os programas (software).</p>
         </div>
-        <div class="row align-items-center d-flex justify-content-between">
-          <div class="col-xl-4  p-5">
-            <img src="assets/img/processador.png" class="img-fluid py-5" alt="">
-            <img src="assets/img/memoria.png" class="img-fluid d-none d-xl-block py-5" alt="">
-            <img src="assets/img/software.png" class="img-fluid d-none d-xl-block pt-5" alt="">
-          </div>
-          <div class="col-xl-6 pt-4 pt-lg-0 content text-md-start text-center">
+        <div class="row align-items-center">
+
+          <div class="content text-center text-md-start">
             <h3>Processador</h3>
             <p>
-              O processador é o cérebro do computador, pois executa programas. É, ainda, o componente que calcula operações de lógica binária (adição, subtracção, etc), que lê e escreve informação na memória do computador e que diz aos outros componentes o que fazer. A Unidade central de processamento ou processador central unidade de controle (UC) supervisiona todas as operações do computador, sob a direção de um programa armazenado. Primeiro ela determina que instrução será executada pelo computador, e depois procura essa instrução na memória interna e a interpreta. A instrução é então executada por outras unidades do computador, sob a sua direção.
+              O processador é o cérebro do computador, pois executa programas. É, ainda, o componente que calcula operações de lógica binária (adição, subtracção, etc), que lê e escreve informação na memória do computador e que diz aos outros componentes o que fazer. <br> A Unidade central de processamento ou processador central unidade de controle (UC) supervisiona todas as operações do computador, sob a direção de um programa armazenado. Primeiro ela determina que instrução será executada pelo computador, e depois procura essa instrução na memória interna e a interpreta. A instrução é então executada por outras unidades do computador, sob a sua direção. <br>
               Já a unidade lógica e aritmética (ULA), executa as operações aritméticas e lógicas dirigidas pela Unidade de Controle. Operações lógicas são de forma simples, a habilidade de comparar coisas para tomada de decisão.
 
             </p>
+            <div class="col pt-5 text-center">
+              <img class="img-fluid" src="./assets/img/arq2.gif" alt="">
+            </div>
             <h3 class="pt-5">Memória</h3>
             <p>
-              A memória é o principal local de operação do computador, pois armazena toda a informação associada ao programa que está a ser executado. Como é óbvio, quanto maior fôr a memória, maior é a quantidade de operações sobre a qual podem ser executadas.
+              A memória é um componente que tem por função armazenar internamente toda informação que é manipulada pela máquina: os programas (conjunto de instruções) e os dados. A capacidade de armazenar um programa é uma característica que permite o processamento automático de dados.
             </p>
+            <p>A memória é em geral, classificada em dois grandes tipos: <br>
+              - Memória Principal (MP) ou interna/central/memória <br>
+              - Memória Secundária (MS) ou auxiliar/externa/magnética ou de massa
+            </p>
+            <p><b>Memória Principal</b> <br>
+              A memória principal é a memória de armazenamento temporário, que armazena os programas e os dados que estão sendo processados, somente durante o processamento. É uma memória volátil (RAM), pois os dados só permanecem nela armazenados enquanto houver energia elétrica. Na falta de energia, quando o computador for desligada, todos os dados são perdidos. <br>
+              <em> “A localização de informações na MP é feita a partir de endereços associados à área da memória onde tais informações foram gravadas. A MP é organizada como um conjunto de células (áreas de memória), onde cada célula é identificada por um endereço único e armazena dados ou instruções de programas.”</em>
+            </p>
+            <p><b>Memória Secundária</b> <br>
+              A memória secundária é a memória de armazenamento permanente, que armazena os dados permanentemente no sistema, sem a necessidade de energia elétrica e, por esse motivo, conhecida como memória não volátil. Ela funciona como complemento da memória principal para guardar dados. O computador só consegue processar o que está na memória principal, assim como ocorre conosco. Na verdade, só conseguimos processar o que está na nossa memória. Por exemplo, só podemos discar um número telefônico do qual nos lembramos, o qual esteja na nossa memória. Se não lembrarmos, temos que recorrer a uma memória auxiliar, representada neste caso por uma agenda telefônica e só então estaremos em condições de discar. Como exemplos de memória secundária podemos citar o disquete, o disco rígido e o CD-ROM.
+            </p>
+
+            <div class="row">
+              <div class="col pt-5 d-flex justify-content-center">
+                <img src="assets/img/memoria.png" class="img-fluid py-2" style="width: 300px;" alt="">
+              </div>
+            </div>
             <h3 class="pt-5">Periféricos</h3>
             <p>
               Os dispositivos de entrada/saída são, tal como o nome o indica, os pontos de entrada e de saída de informação no computador. Entre eles estão o teclado, o monitor e a impressora, os dispositivos de armazenamento, bem como muitos outros. Os dispositivos de armazenamento, no entanto, são os mais práticos e importantes, pois salvaguardam a informação que não está em uso na memória e que, mais tarde, podem ser necessários. Graças à sua separação física dos outros componentes, estes dispositivos são vulgarmente chamados de periféricos.
@@ -104,14 +120,12 @@
             <p>
               Apesar de não terem qualquer tipo de implementação física, os programas (software) são o que dão vida aos diversos componentes do computador e os fazem trabalhar para algum fim comum. Isso é conseguido, através de instruções específicas de operação agrupadas em unidades lógicas ou programas.
             </p>
+            <div class="row">
+              <div class="col pt-5 d-flex justify-content-center">
+                <img src="assets/img/software.png" class="img-fluid py-2" style="width: 300px;" alt="">
+              </div>
+            </div>
           </div>
-        </div>
-        <div class="row mt-5 text-center">
-          <div class="col pt-5">
-            <img class="img-fluid" src="./assets/img/arq2.gif" alt="">
-
-          </div>
-
         </div>
     </section><!-- End About Section -->
 
@@ -130,29 +144,7 @@
           </div>
 
           <div class="row">
-            <div class="col-lg-6">
-              <h3 class="resume-title">ROM</h3>
-              <div class="resume-item pb-0">
-                <p><em>Esse é o tipo tradicional de memória ROM. Os dados armazenados nela já saem prontos de fábrica e elas são produzidas em larga escala na indústria. Um exemplo de memória ROM é o BIOS (Basic Input Output Systems - Sistema básico de Entrada e Saída), que se localiza na placa-mãe e em qualquer placa de expansão.</em></p>
-              </div>
 
-              <h3 class="resume-title">PROM</h3>
-              <div class="resume-item">
-                <p><em>Significa Programmable ROM, ou seja, ROM programável. Trata-se de um espécie de ROM que é produzida apagada. O fabricante pode programá-las, ou seja, gravar seu programa. Esta gravação pode ser feita apenas um vez, pois utiliza um processo irreversível. Por isso, usa-se o termo queimar a PROM quando se grava nesta memória.</em></p>
-              </div>
-
-              <h3 class="resume-title">EPROM</h3>
-              <div class="resume-item">
-                <p><em>Significa Eraseable PROM, ou seja, uma ROM programável e apagável. Assim como ocorre com a PROM, a EPROM pode ser programada e a partir daí, comporta-se como uma ROM comum, mantendo os dados armazenados mesmo sem corrente elétrica, e permitindo apenas operações de leitura. A grande diferença é que a EPROM pode ser apagada com raios ultravioleta de alta potência. Possuem uma "janela de vidro", através da qual os raios ultravioleta podem incidir nas operações de apagamento. Nota-se que essa janela de vidro fica sempre coberta por um adesivo que tampa a passagem de luz. É fácil identificar um chip EPROM na placa mãe justamente pela presença desse adesivo.</em></p>
-              </div>
-
-              <h3 class="resume-title">Flash ROM</h3>
-              <div class="resume-item">
-                <p><em>Esta é uma memória ROM que tem uma característica inovadora por ser gravada através de processos eletrônicos especiais. Muitas placas de CPU que estão no mercado utilizam esse tipo de ROM para armazenar dados do BIOS, e possuem ainda os circuitos que permitem a sua gravação. Dessa forma, o usuário pode realizar atualizações no BIOS, fornecidas pelo fabricante da placa de CPU.
-
-                    Entende-se, então, que as memórias ROM são usadas geralmente por chips que controlam as placas adaptadoras e a placa-mãe. Nos antigos XT, as ROMs tinham cerca de 8KB. As atuais possuem cerca de 64KB a 128KB.</em></p>
-              </div>
-            </div>
             <div class="col-lg-6">
               <h3 class="resume-title">RAM</h3>
               <div class="resume-item">
@@ -189,6 +181,31 @@
 
               </div>
             </div>
+            <div class="col-lg-6">
+              <h3 class="resume-title">ROM</h3>
+              <div class="resume-item pb-0">
+                <p><em>É usada para armazenar instruções e/ou dados permanentes ou raramente alterados. A informação geralmente é colocada no chip de armazenamento quando ele é fabricado e o conteúdo da ROM não pode ser alterado por um programa de usuário. Por esse motivo é uma memória só de leitura.
+                    A ROM se constitui em um chip que possui um software determinado e não apagável pelo usuário. Desta forma a ROM incorpora as idéias de hardware e software (a isto se dá o nome de firmware). Portanto, firmware, é um hardware que contém um software já determinado, associando assim as duas capacidades. Ex: fita de videogame. Em resumo, a informação armazenada em ROM não é volátil, ou seja, não é perdida quando o fornecimento de energia externa do computador é interrompido.
+                  </em></p>
+              </div>
+
+              <h3 class="resume-title">PROM</h3>
+              <div class="resume-item">
+                <p><em>Significa Programmable ROM, ou seja, ROM programável. Trata-se de um espécie de ROM que é produzida apagada. O fabricante pode programá-las, ou seja, gravar seu programa. Esta gravação pode ser feita apenas um vez, pois utiliza um processo irreversível. Por isso, usa-se o termo queimar a PROM quando se grava nesta memória.</em></p>
+              </div>
+
+              <h3 class="resume-title">EPROM</h3>
+              <div class="resume-item">
+                <p><em>Significa Eraseable PROM, ou seja, uma ROM programável e apagável. Assim como ocorre com a PROM, a EPROM pode ser programada e a partir daí, comporta-se como uma ROM comum, mantendo os dados armazenados mesmo sem corrente elétrica, e permitindo apenas operações de leitura. A grande diferença é que a EPROM pode ser apagada com raios ultravioleta de alta potência. Possuem uma "janela de vidro", através da qual os raios ultravioleta podem incidir nas operações de apagamento. Nota-se que essa janela de vidro fica sempre coberta por um adesivo que tampa a passagem de luz. É fácil identificar um chip EPROM na placa mãe justamente pela presença desse adesivo.</em></p>
+              </div>
+
+              <h3 class="resume-title">Flash ROM</h3>
+              <div class="resume-item">
+                <p><em>Esta é uma memória ROM que tem uma característica inovadora por ser gravada através de processos eletrônicos especiais. Muitas placas de CPU que estão no mercado utilizam esse tipo de ROM para armazenar dados do BIOS, e possuem ainda os circuitos que permitem a sua gravação. Dessa forma, o usuário pode realizar atualizações no BIOS, fornecidas pelo fabricante da placa de CPU.
+
+                    Entende-se, então, que as memórias ROM são usadas geralmente por chips que controlam as placas adaptadoras e a placa-mãe. Nos antigos XT, as ROMs tinham cerca de 8KB. As atuais possuem cerca de 64KB a 128KB.</em></p>
+              </div>
+            </div>
           </div>
 
         </div>
@@ -201,7 +218,7 @@
         <div class="section-title">
           <h2>Tarefas e Processos</h2>
           <p>Uma tarefa é definida como sendo a execução de um fluxo sequencial de
-            instruções, construído para atender uma finalidade específica: realizar um cálculo
+            instruções eletrônicas, construído para atender uma finalidade específica: realizar um cálculo
             complexo, a edição de um gráfico, a formatação de um disco, etc. Assim, a execução
             de uma sequência de instruções em linguagem de máquina, normalmente gerada pela
             compilação de um programa escrito em uma linguagem qualquer, é denominada “tarefa”
